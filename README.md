@@ -57,7 +57,7 @@ The simplest way to use SweetAlertDialog is to add the library as aar dependency
 **build.gradle (module: app)**
 
     dependencies {
-        implementation 'com.github.f0ris.sweetalert:library:1.6.2'
+        implementation ("com.github.f0ris.sweetalert:library:1.6.2")
     }
 
 ## Usage
