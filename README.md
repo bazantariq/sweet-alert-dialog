@@ -48,12 +48,12 @@ The simplest way to use SweetAlertDialog is to add the library as aar dependency
       <type>aar</type>
     </dependency>
 
-**Gradle**
+**settings.gradle**
 
     repositories {
-        mavenCentral()
+        maven { url = uri("https://jitpack.io")}
     }
-
+**build.gradle (module: app)**
     dependencies {
         implementation 'com.github.f0ris.sweetalert:library:1.6.2'
     }
